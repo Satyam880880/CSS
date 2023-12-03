@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    
+<style>
+div{
+    height: 200px;
+    width: 200px;
+    /*background-color: rgba(76, 255, 0, 0.569);*/
+    background-color: rgb(214, 196, 255);
+   /* transition-duration: 1s;
+    transition-delay: 1s;*/
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2s;
+}
+/*
+#opacity{
+    background-color: rgb(255, 164, 18) 100%, 53%);
+    opacity: 0.5;
+} */
+div:hover{
+  margin-top: 400px;
+    background-color: black;
+    border-radius: 50px;
+}
+</style>
+</head>
+<body>
+   <!--  <div>
+        <h1>heading</h1>
+    </div>
+  -->
+    <div id="opacity">
+       <!-- <h1>heading</h1>
+        <button>click me</button>
+       -->
+    </div>
+</body>
+</html>
