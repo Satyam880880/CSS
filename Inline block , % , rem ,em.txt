@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS</title>
+  <style>
+        
+// Inline block
+
+   /*  div{
+      height: 200px;
+      width: 200px;
+      background-color: greenyellow;
+      border: 2px solid black;
+       margin: 5px;
+       display: inline-block;
+   }*/
+     #third{
+      display: none;   /*gayab*/
+     }
+      
+ // Percentage unit
+      h1{
+        border: 2px solid black;
+        width: 50%;               // pure div ke width ka 50%
+      }
+     #outer{
+        height: 400px;
+        width: 400px;
+        background-color: pink;
+          margin: 50px;
+      }
+     #inner{
+        height: 100px;
+        width: 100px;
+        background-color: cornflowerblue;
+        margin-left: 10%;  /*30px in outer width*/
+      }
+// Em & Rem unit
+       #outer{
+        height: 400px;
+        width: 400px;
+        border: 2px solid black;
+        background-color: pink;
+        font-size: 10px;
+        margin: 10px;
+      }
+     #inner{
+        height: 100px;
+        width: 100px;
+        background-color: cornflowerblue;
+        font-size: 3em;      /* outer div ka double 10px */
+      padding: 1em;  /* 10px front size ki vajah se*/
+      }
+      button{
+        font-size: 50px;
+        border-radius: 15px;
+        border: 5px solid pink;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+  </style>
+</head>
+<body>
+ <!-- 
+  <div></div>
+  <div></div>
+  <div id="third"></div>
+ -->
+ <h1>heading</h1>
+ <div id="outer">
+This is outer div
+  <div id="inner">
+This is inner div
+</div>
+ </div>
+<button>click me</button>
+</body>
+</html>
